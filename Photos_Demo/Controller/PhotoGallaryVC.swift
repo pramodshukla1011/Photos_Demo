@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ImageViewer_swift
 
 class PhotoGallaryVC: UIViewController {
 
@@ -66,6 +67,7 @@ extension PhotoGallaryVC : UICollectionViewDelegate,UICollectionViewDataSource,U
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell : PhotoCell  = collectionView.dequeueReusableCell(withReuseIdentifier: PhotoCell.reuseIdentifier, for: indexPath) as! PhotoCell
         cell.configure(media: photoArr[indexPath.item])
+        cell.img.setupImageViewer(urls: photoArr.map({URL(string: $0.media)!}), initialIndex: indexPath.item, options: [], placeholder: nil, from: self)
         return cell
     }
    

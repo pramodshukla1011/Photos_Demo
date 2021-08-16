@@ -11,7 +11,7 @@ class PhotoCell: UICollectionViewCell {
     @IBOutlet weak var img : UIImageView!
     
     func configure(media : Media) {
-        img.url(media.media)
+        img.sd_setImage(with: URL(string: media.media), completed: nil)
     }
 }
 extension UICollectionViewCell {

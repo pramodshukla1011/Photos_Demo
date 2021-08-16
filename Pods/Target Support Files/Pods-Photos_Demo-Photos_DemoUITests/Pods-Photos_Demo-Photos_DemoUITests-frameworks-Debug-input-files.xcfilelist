@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Photos_Demo-Photos_DemoUITests/Pods-Photos_Demo-Photos_DemoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ImageViewer.swift/ImageViewer_swift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

@@ -1,0 +1,24 @@
+PODS:
+  - ImageViewer.swift (3.3.3)
+  - ImageViewer.swift/Fetcher (3.3.3):
+    - SDWebImage
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+
+DEPENDENCIES:
+  - ImageViewer.swift (~> 3.0)
+  - ImageViewer.swift/Fetcher (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - ImageViewer.swift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  ImageViewer.swift: 3dbb74a68ac4bdd6cdd585b3128dae17ccd733e5
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+
+PODFILE CHECKSUM: e3e7e9c9f14698fd1229c5c6982db9f6e73f9cef
+
+COCOAPODS: 1.10.1
